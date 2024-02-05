@@ -85,7 +85,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'Pedro-Henrique-Ton-Pauletti-Resume.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://github.com/pedro-pauletti/pedro-pauletti.github.io/blob/main/Pedro-Henrique-Ton-Pauletti-Resume.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Python',
