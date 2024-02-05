@@ -64,7 +64,7 @@ const CONFIG = {
     imageURL: '',
   },
   social: {
-    linkedin: 'https://www.linkedin.com/in/pedro-henrique-ton-pauletti-5648391a1/',
+    linkedin: 'pedro-henrique-ton-pauletti-5648391a1',
     //twitter: 'arif_szn',
     //mastodon: 'arifszn@mastodon.social',
     //facebook: '',
