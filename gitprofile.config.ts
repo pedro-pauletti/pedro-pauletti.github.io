@@ -12,11 +12,11 @@ const CONFIG = {
   base: '/',
   projects: {
     external: {
-      header: 'My Projects',
+      header: 'Academic Projects',
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'Help Vision',
           description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
           imageUrl:
@@ -24,29 +24,7 @@ const CONFIG = {
           link: 'https://example.com',
         },
         {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
-      ],
-    },
-    external: {
-      header: 'My Projects 2',
-      // To hide the `External Projects` section, keep it empty.
-      projects: [
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
-        {
-          title: 'Project Name',
+          title: 'SocialEar',
           description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
           imageUrl:
@@ -56,9 +34,9 @@ const CONFIG = {
       ],
     },
     github: {
-      display: false, // Display GitHub projects?
-      header: 'Github Projects',
-      mode: 'automatic', // Mode can be: 'automatic' or 'manual'
+      display: true, // Display GitHub projects?
+      header: 'Data Science/Engineering Projects',
+      mode: 'manual', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
         limit: 8, // How many projects to display.
@@ -69,13 +47,20 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['pedro-pauletti/machine-learning-projects',
+                   'pedro-pauletti/deeplearning-pytorch',
+                   'pedro-pauletti/deeplearning-tensorflow',
+                   'pedro-pauletti/IBM-Attrition-Dataset-Analysis', 
+                   'pedro-pauletti/nlp-with-transformers', 
+                   'pedro-pauletti/hf-audio-course', 
+                   'pedro-pauletti/generate-audio-voice-azure', 
+                  ], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
   },
   seo: {
     title: 'Portfolio of Pedro Pauletti',
-    description: '',
+    description: 'Engenheiro de Computação, pesquisador e entusiasta nas áreas de Machine Learning, Deep Learning, Data Science e Data engineering. Competidor em Maratonas de Programação e Campeonatos de Robótica.',
     imageURL: '',
   },
   social: {
@@ -112,6 +97,9 @@ const CONFIG = {
     'PostgreSQL',
     'Git',
     'Docker',
+    'Azure',
+    'AWS',
+    'GCP',
   ],
   experiences: [
     {
@@ -123,12 +111,12 @@ const CONFIG = {
     },
   ],
   certifications: [
-    {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
-    },
+    // {
+    //   name: 'Lorem ipsum',
+    //   body: 'Lorem ipsum dolor sit amet',
+    //   year: 'March 2022',
+    //   link: 'https://example.com',
+    // },
   ],
   educations: [
     {
