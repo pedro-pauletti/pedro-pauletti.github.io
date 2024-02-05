@@ -66,6 +66,8 @@ const CONFIG = {
     //dribbble: '',
     //behance: '',
     medium: 'pedro-pauletti',
+    kaggle: 'pedro-pauletti',
+    datacamp: 'pedro-pauletti',
     //dev: 'arifszn',
     //stackoverflow: '', // example: '1/jeff-atwood'
     //skype: '',
@@ -109,7 +111,7 @@ const CONFIG = {
   educations: [
     {
       institution: 'IFSP - Instituto Federal de Educação, Ciência e Tecnologia de São Paulo, Campus Birigui',
-      degree: 'Computer engineering',
+      degree: '💻Bachelor\'s Degree in Computer Engineering',
       from: '2019',
       to: '2023',
     },
@@ -122,8 +124,8 @@ const CONFIG = {
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    source: 'medium', // medium | dev
+    username: 'pedro-pauletti', // to hide blog section, keep it empty
     limit: 3, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
@@ -149,41 +151,41 @@ const CONFIG = {
     displayAvatarRing: true,
 
     // Available themes. To remove any theme, exclude from here.
-    themes: [
-      //'light',
-      'dark',
-      //'cupcake',
-      //'bumblebee',
-      //'emerald',
-      //'corporate',
-      //'synthwave',
-      //'retro',
-      //'cyberpunk',
-      //'valentine',
-      //'halloween',
-      //'garden',
-      //'forest',
-      //'aqua',
-      //'lofi',
-      //'pastel',
-      //'fantasy',
-      //'wireframe',
-      //'black',
-      //'luxury',
-      //'dracula',
-      //'cmyk',
-      //'autumn',
-      //'business',
-      //'acid',
-      //'lemonade',
-      //'night',
-      //'coffee',
-      //'winter',
-      //'dim',
-      //'nord',
-      //'sunset',
-      //'procyon',
-    ],
+    // themes: [
+    //   //'light',
+    //   'dark',
+    //   //'cupcake',
+    //   //'bumblebee',
+    //   //'emerald',
+    //   //'corporate',
+    //   //'synthwave',
+    //   //'retro',
+    //   //'cyberpunk',
+    //   //'valentine',
+    //   //'halloween',
+    //   //'garden',
+    //   //'forest',
+    //   //'aqua',
+    //   //'lofi',
+    //   //'pastel',
+    //   //'fantasy',
+    //   //'wireframe',
+    //   //'black',
+    //   //'luxury',
+    //   //'dracula',
+    //   //'cmyk',
+    //   //'autumn',
+    //   //'business',
+    //   //'acid',
+    //   //'lemonade',
+    //   //'night',
+    //   //'coffee',
+    //   //'winter',
+    //   //'dim',
+    //   //'nord',
+    //   //'sunset',
+    //   //'procyon',
+    // ],
 
     // Custom theme, applied to `procyon` theme
     customTheme: {
